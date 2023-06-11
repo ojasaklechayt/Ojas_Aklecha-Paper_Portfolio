@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+.breaking {
+    margin: 1% 4%;
+    font-size: 2.5rem;
+}
+
+.bar {
+    width: 100%;
+    padding: 25px 0;
+    color:#1d1d1b;
+}
+
+.bar_content {
+    display: block;
+    width: 100%;
+    transform: translateX(100%);
+    animation: move 8s linear infinite;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.bar_content h1{
+    font-size: 3.5rem;
+}
+
+@keyframes move {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.bayan {
+    margin: 3% 5%;
+    text-align: center;
+}
+
+.bayan p{
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+}

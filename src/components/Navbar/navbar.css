@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/western');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap');
+
+.main {
+
+    width: 98.5vw;
+    display: flex;
+    flex-direction: column;
+    color: #1d1d1b;
+    ;
+}
+
+.nav {
+    height: 20vh;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.title {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.title h1 {
+    font-family: 'Western', sans-serif;
+    font-size: 7rem;
+    font-stretch: wider;
+}
+
+.subwrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.date-location {
+    display: flex;
+    flex-direction: row;
+    gap: 60vw;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.1rem;
+}
+
+.double-line {
+    border-top: 5px double#1d1d1b;
+    margin: 0 55px;
+}
+
