@@ -2,6 +2,7 @@ import Navbar from './components/Navbar/navbar'
 import Sectionone from './components/SectionOne/sectionone';
 import Sectiontwo from './components/SectionTwo/sectiontwo';
 import "./App.css"
+import Experience from './components/Experience/experience';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Sectionone />
         <div className="single-line" />
         <Sectiontwo />
+        <div className="single-line" />
+        <Experience />
       </div>
     </div>
   );
