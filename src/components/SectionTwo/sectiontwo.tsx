@@ -4,7 +4,7 @@ const Sectiontwo = () => {
     return (
         <div className="bar">
             <span className="bar_content">
-                <h1>Breaking!! Ojas enters Blockchain Space!!</h1>
+                <h1>Breaking News!! Ojas enters Blockchain Space!!</h1>
             </span>
             <div className="bayan">
                 <p>

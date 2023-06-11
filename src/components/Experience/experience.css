@@ -1,0 +1,41 @@
+.experience {
+    margin: 3% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'EB Garamond', serif;
+    gap: 5rem;
+}
+
+.experience-item{
+    height: 38vh;
+    width: 38vw;
+    border: 3px solid #2F2D2B;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #2F2D2B;
+}
+
+.sub-experience{
+    height: 40vh;
+    width: 40vw;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border: 3px dashed #2F2D2B;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.sub-experience .experience-quote{
+    float: left;
+    font-size: 1.3rem;
+    height: 33vh;
+}
+
+.experience-name{
+    font-size: 1.2rem;
+}
+
+.experience-date{
+    font-size: 1.1rem;
+}
