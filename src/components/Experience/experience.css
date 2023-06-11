@@ -19,17 +19,18 @@
 .sub-experience{
     height: 40vh;
     width: 40vw;
-    justify-content: flex-start;
-    align-items: flex-end;
     border: 3px dashed #2F2D2B;
     border-radius: 5px;
     padding: 8px;
 }
 
-.sub-experience .experience-quote{
-    float: left;
-    font-size: 1.3rem;
+.experience-quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
     height: 33vh;
+    padding: 0 8%;
 }
 
 .experience-name{
