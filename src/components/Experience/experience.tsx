@@ -18,13 +18,13 @@ interface Data {
 
 const Data: Data = {
     exp1: {
-        Quote: "Providing in-depth and well researched blogs on various concepts of Web3. Writing 4 articles a week with quality and SEO content.",
+        Quote: "Providing in-depth and well researched blogs on various concepts of Web3.",
         Name: "Technical Content Writer ~ Articulate Content Management Services",
         Start: "April 2023",
         End: "Present",
     },
     exp2: {
-        Quote: "Provided content for a number of posts on the official Lumos Wizard Twitter platform. Took several sessions on Figma application in the Lumos community. Building a community around Lumos Labs and promoting Web3 knowledge to the people.",
+        Quote: "Building a community around Lumos Labs and promoting Web3 knowledge to the people.",
         Name: "Lumos Wizard ~ Lumos Labs",
         Start: "April 2023",
         End: "Present",
@@ -34,6 +34,7 @@ const Data: Data = {
 const Experience: React.FC = () => {
     return (
         <div className="experience">
+            <div className="experience-heading"><p>Experience</p></div>
             {Object.keys(Data).map((key) => (
                 <div className="experience-item" key={key}>
                     <div className="sub-experience">
