@@ -3,6 +3,7 @@ import Sectionone from './components/SectionOne/sectionone';
 import Sectiontwo from './components/SectionTwo/sectiontwo';
 import "./App.css"
 import Experience from './components/Experience/experience';
+import Blogs from "./components/Blogs/blogs";
 
 function App() {
   return (
@@ -16,7 +17,11 @@ function App() {
         <div className="single-line" />
         <Sectiontwo />
         <div className="single-line" />
+        <br />
         <Experience />
+        <br />
+        <div className="single-line" />
+        <Blogs />
       </div>
     </div>
   );
