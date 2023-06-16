@@ -4,10 +4,10 @@
     align-items: center;
     justify-content: center;
     font-family: 'EB Garamond', serif;
-    gap: 5rem;
+    gap: 4rem;
 }
 
-.experience-item{
+.experience-item {
     height: 33vh;
     width: 33vw;
     border: 3px solid #2F2D2B;
@@ -16,7 +16,7 @@
     background-color: #2F2D2B;
 }
 
-.sub-experience{
+.sub-experience {
     height: 35vh;
     width: 35vw;
     border: 3px dashed #2F2D2B;
@@ -24,7 +24,7 @@
     padding: 8px;
 }
 
-.experience-quote{
+.experience-quote {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,15 +33,15 @@
     padding: 0 8%;
 }
 
-.experience-name{
+.experience-name {
     font-size: 1.1rem;
 }
 
-.experience-date{
+.experience-date {
     font-size: 1.0rem;
 }
 
-.experience-heading{
+.experience-heading {
     transform: rotate(-90deg);
     font-size: 4rem;
     margin: -8%;
@@ -51,7 +51,7 @@
     opacity: 0.9;
 }
 
-.experience-heading p{
+.experience-heading p {
     background-color: transparent;
     opacity: 1;
 }

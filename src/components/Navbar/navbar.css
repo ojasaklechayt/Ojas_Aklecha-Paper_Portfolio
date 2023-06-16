@@ -32,7 +32,7 @@
     gap: 10vw;
 }
 
-.title h1 {
+.title .subwrap h1 {
     font-family: 'Western';
     font-size: 7rem;
     font-stretch: wider;
