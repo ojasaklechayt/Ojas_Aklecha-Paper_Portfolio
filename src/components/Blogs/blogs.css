@@ -10,10 +10,6 @@
     border-radius: 5px;
 }
 
-.sub-cover:hover{
-    cursor: pointer;
-}
-
 .sub-cover .title {
     background-color: transparent;
 }
@@ -51,5 +47,51 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding-top: 2%;
+}
+
+.button p{
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+    width: 30vh;
+    padding: 1px 1px;
+    background-color: transparent;
+    border: 2px dashed black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-wrap{
+    position: relative;
+}
+
+.button-wrap p::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    left: 20px;
+    top: calc(50%);
+    background-color: #1d1d1b;
+    opacity: 80%;
+    transition: 500ms ease-in-out;
+    pointer-events: none;
+}
+
+.button-wrap p:hover{
+    cursor: pointer;
+}
+
+.button-wrap p:hover::after{
+    width: 84%;
 }
