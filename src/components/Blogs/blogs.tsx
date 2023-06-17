@@ -1,4 +1,9 @@
 import "./blogs.css";
+
+const bloglink = () => {
+    window.open("https://linktr.ee/ojasblogs");
+}
+
 const Blogs = () => {
     return (
         <div className="cover">
@@ -12,7 +17,7 @@ const Blogs = () => {
                     <p>Ojas's blogs are a valuable resource for anyone looking to learn about these technical topics. He has a knack for breaking down complex concepts into simple terms that are easy for readers to understand. His articles are not only informative but also engaging, with a friendly and approachable writing style that makes readers feel at ease.</p>
                 </div>
                 <div className="button">
-                    <button><p>Check out the blogs</p></button>
+                    <div className="button-wrap"><p onClick={bloglink}>Check out the blogs</p></div>
                 </div>
             </div>
         </div>
