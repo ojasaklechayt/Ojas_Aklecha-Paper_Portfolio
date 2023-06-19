@@ -4,6 +4,7 @@ import Sectiontwo from './components/SectionTwo/sectiontwo';
 import "./App.css"
 import Experience from './components/Experience/experience';
 import Blogs from "./components/Blogs/blogs";
+import Sectionthree from './components/SectionThree/sectionthree';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Blogs />
         <div className="single-line" />
         <br />
+        <Sectionthree />
       </div>
     </div>
   );
