@@ -22,6 +22,8 @@ function App() {
         <br />
         <div className="single-line" />
         <Blogs />
+        <div className="single-line" />
+        <br />
       </div>
     </div>
   );
