@@ -16,13 +16,15 @@
 .bar_content {
     display: block;
     width: 100%;
+    max-width: 150vh;
     transform: translateX(100%);
     animation: move 8s linear infinite;
     font-family: 'Libre Baskerville', serif;
+    overflow: hidden;
 }
 
 .bar_content h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 @keyframes move {

@@ -9,9 +9,6 @@ import Sectionthree from './components/SectionThree/sectionthree';
 function App() {
   return (
     <div className="App">
-      <div className="small-screen">
-        Rotate the Screen for better experience.
-      </div>
       <div className="major">
         <Navbar />
         <Sectionone />
