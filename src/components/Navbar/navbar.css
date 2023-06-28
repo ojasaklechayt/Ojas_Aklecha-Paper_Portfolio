@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
     color: #1d1d1b;
-    ;
 }
 
 .nav {
@@ -56,4 +55,40 @@
 .double-line {
     border-top: 5px double#1d1d1b;
     margin: 0 55px;
+}
+
+@media (max-width:900px) {
+    .title .subwrap h1 {
+        font-size: 5rem;
+    }
+
+    .date-location {
+        gap: 40vw;
+    }
+
+    .double-line{
+        margin: 0 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .title .subwrap h1 {
+        font-size: 4rem;
+    }
+
+    .date-location {
+        gap: 30vw;
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width:400px){
+    .title .subwrap h1 {
+        font-size: 3rem;
+    }
+
+    .date-location {
+        gap: 15vw;
+        font-size: 0.65rem;
+    }
 }
