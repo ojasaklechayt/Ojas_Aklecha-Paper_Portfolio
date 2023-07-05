@@ -12,7 +12,7 @@
     width: 33vw;
     border: 3px solid #2F2D2B;
     border-radius: 5px;
-    padding: 15px;
+    padding: 25px;
     background-color: #2F2D2B;
 }
 
@@ -21,7 +21,7 @@
     width: 35vw;
     border: 3px dashed #2F2D2B;
     border-radius: 5px;
-    padding: 8px;
+    padding:8px;
 }
 
 .experience-quote {
@@ -44,7 +44,7 @@
 .experience-heading {
     transform: rotate(-90deg);
     font-size: 4rem;
-    margin: -8%;
+    margin: -15%;
     background-color: #1d1d1b;
     color: #e4dfba;
     padding: 1% 3%;

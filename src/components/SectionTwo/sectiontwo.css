@@ -11,6 +11,7 @@
     width: 100%;
     padding: 25px 0;
     color:#1d1d1b;
+    overflow-x: hidden;
 }
 
 .bar_content {
@@ -20,7 +21,7 @@
     transform: translateX(100%);
     animation: move 8s linear infinite;
     font-family: 'Libre Baskerville', serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .bar_content h1{
@@ -40,5 +41,30 @@
 
 .bayan p{
     font-family: 'EB Garamond', serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+@media (max-width:900px){
+    .bayan p{
+        font-size: 1.1rem;
+        padding: 0 12%;
+        text-align: justify;
+    }
+
+    .bar_content h1{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width:600px){
+    .bar_content h1{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:400px){
+    .bar_content h1{
+        font-size: 1.2rem;
+        text-align: center;
+    }
 }

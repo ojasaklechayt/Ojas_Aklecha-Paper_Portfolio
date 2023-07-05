@@ -34,7 +34,7 @@ const Data: Data = {
 const Experience: React.FC = () => {
     return (
         <div className="experience">
-            <div className="experience-heading"><p>Experience</p></div>
+            {/* <div className="experience-heading"><p>Experience</p></div> */}
             {Object.keys(Data).map((key) => (
                 <div className="experience-item" key={key}>
                     <div className="sub-experience">
