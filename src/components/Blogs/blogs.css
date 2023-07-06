@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
 
 .cover {
-    margin: 1% 5%;
+    margin: 3% 10%;
 }
 
 .sub-cover {
@@ -25,7 +25,7 @@
     font-size: 1.4rem;
     display: flex;
     flex-direction: row;
-    text-align: justify;
+    text-align: left;
     gap: 1rem;
     margin-top: 2rem;
     font-family: 'Playfair', serif;
@@ -94,4 +94,51 @@
 
 .button-wrap p:hover::after{
     width: 84%;
+}
+
+@media (max-width: 768px){
+    .sub-cover .content {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 600px){
+    .sub-cover .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-cover .content p:first-of-type {
+        width: 100%;
+        padding-right: 1rem;
+    }
+
+    .sub-cover .content p:last-of-type {
+        width: 100%;
+        padding-right: 1rem;
+    }
+
+    .sub-cover .title h1 {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width:400px){
+    .sub-cover .title h1 {
+        font-size: 1.8rem;
+    }
+
+    .sub-cover .content {
+        font-size: 1.2rem;
+    }
+    .sub-cover .content p:first-of-type {
+        width: 100%;
+        padding-right: 1rem;
+    }
+
+    .sub-cover .content p:last-of-type {
+        width: 100%;
+        padding-right: 1rem;
+        padding-bottom: 1.5rem;
+    }
 }

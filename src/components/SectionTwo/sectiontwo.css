@@ -48,7 +48,7 @@
     .bayan p{
         font-size: 1.1rem;
         padding: 0 12%;
-        text-align: justify;
+        text-align: left;
     }
 
     .bar_content h1{
@@ -58,7 +58,7 @@
 
 @media (max-width:600px){
     .bar_content h1{
-        font-size: 1.2rem;
+        font-size: 1.25rem;
     }
 }
 
