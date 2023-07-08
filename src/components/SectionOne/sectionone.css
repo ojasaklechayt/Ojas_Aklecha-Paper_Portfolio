@@ -115,7 +115,7 @@
         padding: 2%;
     }
     .titlesection {
-        font-size: 2vh;
+        font-size: 0.8rem;
         text-align: center;
     }
 
@@ -137,9 +137,9 @@
     }
 }
 
-@media (max-width:320px) {
+@media (max-width:343px) {
     .titlesection {
-        font-size: 1.4vh;
+        font-size: 0.55rem;
     }
 
     .section-one img {
