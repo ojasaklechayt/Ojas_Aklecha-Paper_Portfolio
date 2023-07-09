@@ -6,7 +6,7 @@ const Navbar = () => {
             <div className="nav">
                 <div className="title">
                     <div className="subwrap">
-                        <h1>Ojas Aklecha</h1>
+                        <h1>OJAS AKLECHA</h1>
                     </div>
                 </div>
                 <div className="double-line" />
