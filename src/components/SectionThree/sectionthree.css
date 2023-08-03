@@ -1,17 +1,21 @@
 /* sectionthree.css */
-.sectionthree{
+
+/* Base styles */
+.sectionthree {
     display: flex;
     flex-direction: row;
     margin: 2% 0;
 }
+
 .subsectionthree {
-    align-self:baseline;
+    align-self: baseline;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 10px;
+    grid-gap: 20px;
     max-width: 800px;
-    margin: 0 10%;
-    padding: 10px;
+    margin: 0 5%;
+    padding: 20px 0;
+    padding-right: 5%;
 }
 
 .skill-wrap {
@@ -28,11 +32,88 @@
 .skill-wrap:hover {
     transform: scale(1.05);
 }
-.skill-wrap p{
+
+.skill-wrap p {
     background-color: transparent;
     cursor: pointer;
 }
 
 .vertical-line {
     border: 1px solid black;
+}
+
+.resume {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    /* Changed from 10% to 10px */
+}
+
+.resume h3 {
+    font-size: 1.2rem;
+}
+
+.resume img {
+    height: 15vh;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* Media queries */
+/* For screens smaller than or equal to 1000px */
+@media (max-width: 1000px) {
+    .sectionthree {
+        flex-direction: column;
+        margin: 2% 5%;
+    }
+
+    .subsectionthree {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+        padding: 20px 0;
+    }
+
+    .skill-wrap {
+        padding: 2px;
+    }
+
+    .resume {
+        margin-top: 5%;
+    }
+}
+
+/* For screens smaller than or equal to 768px */
+@media (max-width: 768px) {
+    .subsectionthree {
+        max-width: 650px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        margin: 0;
+    }
+
+    .resume img {
+        height: 20vh;
+    }
+}
+
+/* For screens smaller than or equal to 480px */
+@media (max-width: 480px) {
+    .subsectionthree {
+        padding-left: 10%;
+        padding-bottom: 15%;
+        max-width: 250px;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        margin: 0;
+        padding-right: 10px;
+    }
+
+    .resume img {
+        height: 15vh;
+    }
+
+    .vertical-line{
+        align-self: center;
+        width: 80%;
+    }
 }
