@@ -2,7 +2,6 @@ import "./sectionthree.css";
 
 interface skill {
     name: string;
-    rating: number;
 }
 
 interface Skills {
@@ -26,67 +25,54 @@ interface Skills {
 const Skills: Skills = {
     s1: {
         name: "ReactJS",
-        rating: 5,
     },
     s2: {
         name: "NodeJS",
-        rating: 5,
     },
     s3: {
         name: "ExpressJS",
-        rating: 5,
     },
     s4: {
         name: "MongoDB",
-        rating: 4.5,
     },
     s5: {
         name: "Typescript",
-        rating: 4,
     },
     s6: {
         name: "NextJS",
-        rating: 2,
     },
     s7: {
         name: "Tailwind CSS",
-        rating: 5,
     },
     s8: {
         name: "Git & Github",
-        rating: 5,
     },
     s9: {
         name: "Figma",
-        rating: 5,
     },
     s10: {
         name: "Solidity",
-        rating: 3,
     },
     s11: {
         name: "Python",
-        rating: 5,
     },
     s12: {
         name: "C/CPP",
-        rating: 4,
     },
 };
 
 const Sectionthree: React.FC = () => {
     return (
         <div className="sectionthree">
-            <div className="skill-wrap">
-                <ul>
-                    {Object.keys(Skills).map((key) => (
-                        <li key={key}>
-                            <p>{Skills[key].name}</p>
-                            <p>{Skills[key].rating}</p>
-                        </li>
-                    ))}
-                </ul>
+            <div className="subsectionthree">
+                {Object.keys(Skills).map((key) => (
+                    <div className="skill-wrap" key={key}>
+                        <p>{Skills[key].name}</p>
+                    </div>
+                ))}
             </div>
+            <hr className="vertical-line"/>
+            <div className="resume">Resume</div>
         </div>
     );
 };
