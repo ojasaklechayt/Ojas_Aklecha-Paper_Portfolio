@@ -64,15 +64,15 @@ const Skills: Skills = {
 const Sectionthree: React.FC = () => {
     return (
         <div className="sectionthree">
-            <div className="skill-wrap">
-                <ul>
-                    {Object.keys(Skills).map((key) => (
-                        <li key={key}>
-                            <p>{Skills[key].name}</p>
-                        </li>
-                    ))}
-                </ul>
+            <div className="subsectionthree">
+                {Object.keys(Skills).map((key) => (
+                    <div className="skill-wrap" key={key}>
+                        <p>{Skills[key].name}</p>
+                    </div>
+                ))}
             </div>
+            <hr className="vertical-line"/>
+            <div className="resume">Resume</div>
         </div>
     );
 };

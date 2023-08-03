@@ -18,9 +18,9 @@ interface Data {
 
 const Data: Data = {
     exp1: {
-        Quote: "Providing in-depth and well researched blogs on various concepts of Web3.",
-        Name: "Technical Content Writer ~ Articulate Content Management Services",
-        Start: "April 2023",
+        Quote: "Building scalable organization management system using Javascript and NodeJS.",
+        Name: "Developer Intern ~ Genesis Technologies Co. Ltd.",
+        Start: "August 2023",
         End: "Present",
     },
     exp2: {

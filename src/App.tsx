@@ -23,6 +23,8 @@ function App() {
         <div className="single-line" />
         <br />
         <Sectionthree />
+        <div className="single-line" />
+        <br />
       </div>
     </div>
   );
