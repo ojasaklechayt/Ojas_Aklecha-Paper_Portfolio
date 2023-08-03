@@ -1,4 +1,5 @@
 import "./sectionthree.css";
+import resumeframe from "../../assets/resumeframe.svg";
 
 interface skill {
     name: string;
@@ -61,6 +62,10 @@ const Skills: Skills = {
     },
 };
 
+function downloadresume() {
+    window.open("https://drive.google.com/file/d/1i9yyTRfmfG47cYIbfZZy3FI0yfyQ0o7p/view?usp=sharing");
+}
+
 const Sectionthree: React.FC = () => {
     return (
         <div className="sectionthree">
@@ -72,7 +77,7 @@ const Sectionthree: React.FC = () => {
                 ))}
             </div>
             <hr className="vertical-line"/>
-            <div className="resume">Resume</div>
+            <div className="resume"><h3>Checkout Resume</h3><img onClick={downloadresume} src={resumeframe} alt="Resumeframe" /></div>
         </div>
     );
 };
