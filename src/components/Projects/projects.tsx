@@ -1,7 +1,17 @@
 import "./projects.css";
+import mun from "../../assets/mun.png";
+import ojublogs from "../../assets/ojublogs.png";
 
 const githublink = () => {
     window.open("https://github.com/ojasaklechayt");
+}
+
+const ojublog = () => {
+    window.open("https://github.com/ojasaklechayt/Oju-s-Blogs");
+}
+
+const munproject = () => {
+    window.open("https://github.com/VITCMUN-2023/VITCMUN23");
 }
 
 const Projects = () => {
@@ -12,9 +22,8 @@ const Projects = () => {
                     <h1>Projects!!</h1>
                 </div>
                 <div className="project-content">
-                    <p>Young blogger Ojas Aklecha is making a name for himself in the tech world with his insightful articles on a range of technical topics. From web development to blockchain, ReactJS to NodeJS, Ojas covers it all with his well-researched and informative articles.</p>
-                    <hr className="vertical-line"/>
-                    <p>Ojas's blogs are a valuable resource for anyone looking to learn about these technical topics. He has a knack for breaking down complex concepts into simple terms that are easy for readers to understand. His articles are not only informative but also engaging, with a friendly and approachable writing style that makes readers feel at ease.</p>
+                    <img onClick={ojublog} src={mun} alt="Ojas Aklecha" />
+                    <img onClick={munproject} src={ojublogs} alt="Ojas Aklecha" />
                 </div>
                 <div className="project-button">
                     <div className="project-button-wrap"><p onClick={githublink}>Explore my Github</p></div>
