@@ -25,22 +25,44 @@
     font-size: 1.4rem;
     display: flex;
     flex-direction: row;
-    text-align: left;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
     font-family: 'Playfair', serif;
     background-color: transparent;
 }
 
-.project-sub-cover .project-content p:first-of-type {
-    width: 250vh;
+.project-sub-cover .project-content img:first-of-type {
+    width: 50vh;
     padding-right: 1rem;
     background-color: transparent;
+    filter: grayscale(100%);
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px;
+    transition: all 0.5s;
+    border-radius: 10px;
 }
 
-.project-sub-cover .project-content p:last-of-type {
-    width: 350vh;
+.project-sub-cover .project-content img:first-of-type:hover {
+    filter: grayscale(0%);
+}
+
+.project-sub-cover .project-content img:last-of-type {
+    width: 50vh;
     background-color: transparent;
+    filter: grayscale(100%);
+    opacity: 70%;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.project-sub-cover .project-content img:last-of-type:hover {
+    filter: grayscale(0%);
 }
 
 .project-button{
@@ -96,6 +118,25 @@
     width: 84%;
 }
 
+
+@media (max-width: 1100px){
+    .project-sub-cover .project-content img:first-of-type {
+        width: 35vh;
+    }
+    
+    .project-sub-cover .project-content img:last-of-type {
+        width: 35vh;
+    }
+}
+
+@media (max-width: 800px){
+    .project-sub-cover .project-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
 @media (max-width: 768px){
     .project-sub-cover .project-content {
         font-size: 1.2rem;
@@ -103,17 +144,13 @@
 }
 
 @media (max-width: 600px){
-    .project-sub-cover .project-content{
-        display: flex;
-        flex-direction: column;
-    }
 
-    .project-sub-cover .project-content p:first-of-type {
+    .project-sub-cover .project-content img:first-of-type {
         width: 100%;
         padding-right: 1rem;
     }
 
-    .project-sub-cover .project-content p:last-of-type {
+    .project-sub-cover .project-content img:last-of-type {
         width: 100%;
         padding-right: 1rem;
     }
@@ -131,12 +168,12 @@
     .project-sub-cover .project-content {
         font-size: 1.2rem;
     }
-    .project-sub-cover .project-content p:first-of-type {
+    .project-sub-cover .project-content img:first-of-type {
         width: 100%;
         padding-right: 1rem;
     }
 
-    .project-sub-cover .project-content p:last-of-type {
+    .project-sub-cover .project-content img:last-of-type {
         width: 100%;
         padding-right: 1rem;
         padding-bottom: 1.5rem;
