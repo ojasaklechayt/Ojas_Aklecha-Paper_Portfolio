@@ -5,6 +5,7 @@ import "./App.css"
 import Experience from './components/Experience/experience';
 import Blogs from "./components/Blogs/blogs";
 import Sectionthree from './components/SectionThree/sectionthree';
+import Projects from './components/Projects/projects';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         <div className="single-line" />
         <br />
         <Sectionthree />
+        <div className="single-line" />
+        <br />
+        <Projects />
         <div className="single-line" />
         <br />
       </div>
