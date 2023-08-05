@@ -6,6 +6,7 @@ import Experience from './components/Experience/experience';
 import Blogs from "./components/Blogs/blogs";
 import Sectionthree from './components/SectionThree/sectionthree';
 import Projects from './components/Projects/projects';
+import Connect from './components/Connect/connect';
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
         <br />
         <Projects />
         <div className="single-line" />
+        <br />
+        <Connect />
         <br />
       </div>
     </div>
