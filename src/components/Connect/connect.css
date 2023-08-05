@@ -278,4 +278,24 @@ a.hashnode {
     align-items: center;
 }
 
-/* ... other CSS styles ... */
+@media (max-width:480px){
+    .connect h1 {
+        font-size: 1.6rem;
+        margin-bottom: 8%;
+    }
+
+    .connect h3 {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 8%;
+    }
+
+    .connect a {
+        /* gap:5%; */
+        padding:3%;
+    }
+
+    .connect-container {
+        margin-bottom: 8%;
+    }
+}
