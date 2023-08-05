@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+:root {
+    --line_color: #1b1919;
+    --back_color: #E9ECFF;
+}
+
+.connect {
+    margin: 3% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.connect-title {
+    padding-bottom: 1%;
+}
+
+.connect-text {
+    padding-bottom: 2%;
+}
+
+.connect {
+    padding: 25px 50px;
+}
+
+.connect h1 {
+    background-color: transparent;
+    font-family: Georgia, serif;
+}
+
+.connect h3 {
+    font-family: 'EB Garamond', serif;
+}
+
+.connect a {
+    background-color: transparent;
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.linkedin {
+    color: black;
+}
+
+a.github {
+    color: black;
+}
+
+a.twitter {
+    color: black;
+}
+
+a.behance {
+    color: black;
+}
+
+a.hashnode {
+    color: black;
+}
+
+:root {
+    --line_color: #1b1919;
+    --back_color: #E9ECFF;
+}
+
+.connect-button {
+    background-color: transparent;
+    position: relative;
+    z-index: 0;
+    width: 180px;
+    height: 42px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--line_color);
+    letter-spacing: 2px;
+    transition: all .3s ease;
+    line-height: 42px;
+    padding: 0 12px;
+    font-family: 'EB Garamond', serif;
+    border: none;
+    /* Remove the border */
+    outline: none;
+    /* Remove the focus outline */
+    cursor: pointer;
+}
+
+.connect-button__text {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.connect-button::before,
+.connect-button::after,
+.connect-button__text::before,
+.connect-button__text::after {
+    background-color: transparent;
+    content: '';
+    position: absolute;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--line_color);
+    transition: all .5s ease;
+}
+
+.connect-button::before {
+    top: 0;
+    left: 54px;
+    width: calc(100% - 56px * 2 - 16px);
+}
+
+.connect-button::after {
+    top: 0;
+    right: 54px;
+    width: 8px;
+}
+
+.connect-button__text::before {
+    bottom: 0;
+    right: 54px;
+    width: calc(100% - 56px * 2 - 16px);
+}
+
+.connect-button__text::after {
+    bottom: 0;
+    left: 54px;
+    width: 8px;
+}
+
+.connect-button__line {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 56px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.connect-button__line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 150%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 300px;
+    border: solid 3px var(--line_color);
+}
+
+.connect-button__line:nth-child(1),
+.connect-button__line:nth-child(1)::before {
+    left: 0;
+}
+
+.connect-button__line:nth-child(2),
+.connect-button__line:nth-child(2)::before {
+    right: 0;
+}
+
+.connect-button:hover {
+    letter-spacing: 6px;
+}
+
+.connect-button:hover::before,
+.connect-button:hover .connect-button__text::before {
+    width: 8px;
+}
+
+.connect-button:hover::after,
+.connect-button:hover .connect-button__text::after {
+    width: calc(100% - 56px * 2 - 16px);
+}
+
+.connect-button__drow1,
+.connect-button__drow2 {
+    position: absolute;
+    z-index: -1;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+}
+
+.connect-button__drow1 {
+    top: -16px;
+    left: 40px;
+    width: 32px;
+    height: 0;
+    transform: rotate(30deg);
+}
+
+.connect-button__drow2 {
+    top: 44px;
+    left: 77px;
+    width: 32px;
+    height: 0;
+    transform: rotate(-127deg);
+}
+
+.connect-button__drow1::before,
+.connect-button__drow1::after,
+.connect-button__drow2::before,
+.connect-button__drow2::after {
+    content: '';
+    position: absolute;
+}
+
+.connect-button__drow1::before {
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 32px;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+    transform: rotate(-60deg);
+}
+
+.connect-button__drow1::after {
+    top: -10px;
+    left: 45px;
+    width: 0;
+    height: 32px;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+    transform: rotate(69deg);
+}
+
+.connect-button__drow2::before {
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 32px;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+    transform: rotate(-146deg);
+}
+
+.connect-button__drow2::after {
+    bottom: 26px;
+    left: -40px;
+    width: 0;
+    height: 32px;
+    border-radius: 16px;
+    transform-origin: 16px 16px;
+    transform: rotate(-262deg);
+}
+
+.connect-button__drow1,
+.connect-button__drow1::before,
+.connect-button__drow1::after,
+.connect-button__drow2,
+.connect-button__drow2::before,
+.connect-button__drow2::after {
+    background: var(--back_color);
+}
+
+.connect-container {
+    height: 10%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ... other CSS styles ... */
