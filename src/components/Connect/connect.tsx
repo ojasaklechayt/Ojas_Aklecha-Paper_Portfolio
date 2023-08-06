@@ -11,7 +11,7 @@ import "./connect.css";
 
 const ComposeEmailButton = () => {
     const composeEmail = () => {
-        const emailId = 'recipient@example.com';
+        const emailId = process.env.GMAIL;
         const subject = 'Hello!'; // You can set a predefined subject if needed
 
         // Create the mailto URL with the predefined email ID and subject
