@@ -71,6 +71,10 @@ a.hashnode {
     color: black;
 }
 
+a.blogger {
+    color: black;
+}
+
 :root {
     --line_color: #1b1919;
     --back_color: #E9ECFF;
