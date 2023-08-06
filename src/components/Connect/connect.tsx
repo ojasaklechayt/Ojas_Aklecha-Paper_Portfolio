@@ -11,7 +11,7 @@ import "./connect.css";
 
 const ComposeEmailButton = () => {
     const composeEmail = () => {
-        const emailId = process.env.GMAIL;
+        const emailId = "ojasaklechayt@gmail.com"; // Corrected the email address
         const subject = 'Hello!'; // You can set a predefined subject if needed
 
         // Create the mailto URL with the predefined email ID and subject
@@ -56,13 +56,12 @@ const Connect = () => {
                 <a href="https://ojasaklecha.hashnode.dev/" className="hashnode social">
                     <FontAwesomeIcon icon={faHashnode} size="2x" />
                 </a>
-                <a href="https://www.linkedin.com/newsletters/7048740989632466944/ " className="hashnode social">
+                <a href="https://www.linkedin.com/newsletters/7048740989632466944/ " className="blogger social">
                     <FontAwesomeIcon icon={faBloggerB} size="2x" />
                 </a>
             </div>
         </div>
     );
-}
-
+};
 
 export default Connect;
