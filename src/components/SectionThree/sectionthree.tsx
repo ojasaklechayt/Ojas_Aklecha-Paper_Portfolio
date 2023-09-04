@@ -22,6 +22,8 @@ interface Skills {
     s10: skill;
     s11: skill;
     s12: skill;
+    s13: skill;
+    s14: skill;
 }
 const Skills: Skills = {
     s1: {
@@ -60,10 +62,16 @@ const Skills: Skills = {
     s12: {
         name: "C/CPP",
     },
+     s13: {
+        name: "VueJS",
+    },
+     s14: {
+        name: "Quasar",
+    },
 };
 
 function downloadresume() {
-    window.open("https://drive.google.com/file/d/1i9yyTRfmfG47cYIbfZZy3FI0yfyQ0o7p/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1oSQnn21BJ1n_nPWbUX79BzxfSHHkcb34/view?usp=drive_link");
 }
 
 const Sectionthree: React.FC = () => {
