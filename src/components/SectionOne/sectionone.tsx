@@ -13,7 +13,7 @@ const Sectionone = () => {
                 <div className="news">
                     <p>
                         Ojas Aklecha is a strong player in technology space who expertise in
-                        wide spectrum of skills. His skills includes <u>MERN Stack</u> development
+                        wide spectrum of skills. His skills includes <u>MERN + MEVN Stack</u> development
                         with expertise in major frontend frameworks and tools like <u>ReactJS,
                         and Tailwind CSS</u>. He mixes MERN Stack with <u>UI/UX</u> to create magic.
                     </p>
