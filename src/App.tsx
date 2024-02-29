@@ -21,6 +21,7 @@ function App() {
         <br />
         <Experience />
         <br />
+        <br />
         <div className="single-line" />
         <Blogs />
         <div className="single-line" />
