@@ -62,16 +62,16 @@ const Skills: Skills = {
     s12: {
         name: "C/CPP",
     },
-     s13: {
+    s13: {
         name: "VueJS",
     },
-     s14: {
+    s14: {
         name: "Quasar",
     },
 };
 
 function downloadresume() {
-    window.open("https://drive.google.com/file/d/1oSQnn21BJ1n_nPWbUX79BzxfSHHkcb34/view?usp=drive_link");
+    window.open("https://drive.google.com/file/d/1i9yyTRfmfG47cYIbfZZy3FI0yfyQ0o7p/view?usp=sharing");
 }
 
 const Sectionthree: React.FC = () => {
@@ -84,7 +84,7 @@ const Sectionthree: React.FC = () => {
                     </div>
                 ))}
             </div>
-            <hr className="vertical-line"/>
+            <hr className="vertical-line" />
             <div className="resume"><h3>Checkout Resume</h3><img onClick={downloadresume} src={resumeframe} alt="Resumeframe" /></div>
         </div>
     );

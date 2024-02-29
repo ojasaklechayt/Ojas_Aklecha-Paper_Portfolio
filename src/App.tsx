@@ -7,6 +7,7 @@ import Blogs from "./components/Blogs/blogs";
 import Sectionthree from './components/SectionThree/sectionthree';
 import Projects from './components/Projects/projects';
 import Connect from './components/Connect/connect';
+import './style/tailwind.css';
 
 function App() {
   return (
