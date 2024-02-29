@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './projects.css';
 import mun from '../../assets/mun.png';
 import ojublogs from '../../assets/ojublogs.png';
