@@ -5,6 +5,11 @@ import ojublogs from '../../assets/ojublogs.png';
 import reslink from '../../assets/reslink.png';
 import groovewave from '../../assets/groovewave.png';
 import nftmarketplace from '../../assets/nftmarketplace.png';
+import vibrance24 from '../../assets/vibrance24.png';
+import biosphereclub from '../../assets/biosphereclubwebsite.png';
+import emicalculator from '../../assets/emicalculator.png';
+import dragdrop from '../../assets/dragdrop.png';
+import csvtojson from '../../assets/csvtojson.png';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'; // Importing arrow icons from Font Awesome
 
 const Projects = () => {
@@ -15,7 +20,11 @@ const Projects = () => {
         { name: "Reslink Dashboard Frontend", image: reslink, link: "https://github.com/ojasaklechayt/Reslink-Dashboard" },
         { name: "Groovewave", image: groovewave, link: "https://github.com/ojasaklechayt/Music-Streaming-App" },
         { name: "NFTic Marketplace", image: nftmarketplace, link: "https://github.com/ojasaklechayt/NFTic-Marketplace" },
-        { name: "Reslink Dashboard Frontend", image: reslink, link: "https://github.com/ojasaklechayt/Reslink-Dashboard" },
+        { name: "Vibrance 2024", image: vibrance24, link: "https://www.vitvibrance.com/" },
+        { name: "The Biosphere Club Website", image: biosphereclub, link: "https://thebiosphereclubwebsite.vercel.app"},
+        { name: "EMI Calculator", image: emicalculator, link: "https://github.com/ojasaklechayt/EMI-Calculator-Quasar"},
+        { name: "Custom Report Template Management System", image: dragdrop, link: "https://github.com/ojasaklechayt/drag-drop-arena"},
+        { name: "CSV to JSON Converter with dynamic data changes", image: csvtojson, link: "https://github.com/ojasaklechayt/CSV-to-JSON-convertor"},
     ];
 
     const githublink = () => {
