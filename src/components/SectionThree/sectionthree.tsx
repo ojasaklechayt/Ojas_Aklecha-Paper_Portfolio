@@ -71,7 +71,7 @@ const Skills: Skills = {
 };
 
 function downloadresume() {
-    window.open("https://drive.google.com/file/d/1i9yyTRfmfG47cYIbfZZy3FI0yfyQ0o7p/view?usp=sharing");
+    window.open("https://www.linkedin.com/in/ojas-aklecha/");
 }
 
 const Sectionthree: React.FC = () => {
